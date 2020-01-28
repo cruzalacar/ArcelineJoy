@@ -1,0 +1,31 @@
+.navbar-following{
+    background-color: #323438;
+    height: 55px;
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    font-size: 18px;
+
+}
+
+.navbar-following a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar-following a:hover{
+    background-color: #646970;
+    color: #323438;
+}
+
+.icon {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    
+}
