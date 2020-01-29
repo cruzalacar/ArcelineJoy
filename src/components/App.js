@@ -1,50 +1,27 @@
-import React, {Component} from 'react';
-
-import './background.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import NavBar from './NavBar';
+import Home from './Home';
+import Projects from './Projects';
+import Contact from './Contact';
 
 
 
-
-class App extends React.Component { 
+class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <NavBar />
-                <div className={`bgimg-1`}>
-                    <span>My name is Arceline Cruz</span>
-                    
-                    
-                    
+            <Router>
+                <div>
+                    <NavBar />
+                    <Route exact path='/' component={Home} />
+                    <Route exact path='/Projects' component={Projects} />
+                    <Route exact path='/Contact' component={Contact} />
                 </div>
-                <div className={`info-box`}>
-                    <div className={`info-box-name`}>
-                        Hello World
-                    </div>
-                </div>
-                <div className={`bgimg-2`}></div>
-                <div className={`info-box`}>
-                    <div className={`info-box-title`}>
-                        Skills & Technologies
-                        <div className={`info-box-text`}>
-                            C#
-                        </div>
-                    </div>
-                </div>
-                <div className={`bgimg-3`}></div>
-                <div className={`info-box`}>
-                    <div className={`info-box-title`}>
-                        Experience
-                        <div className={`info-box-text`}>
-
-                        </div>
-                    </div>
-                </div>
-                <div className={`bgimg-4`}></div>       
-            </div>
+            </Router>
         );
     }
 }
+
 
 export default App;

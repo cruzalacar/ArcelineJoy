@@ -1,7 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom';
 import './navbar.css';
 import {SocialIcon} from 'react-social-icons';
+import Home from './Home';
+import Projects from './Projects';
+import Contact from './Contact';
 
 class NavBar extends React.Component {
 
@@ -9,10 +12,10 @@ class NavBar extends React.Component {
         return(
             <div className="navbar-following">
                 <div>
-                    <a href="#home"> Arceline Joy </a>
-                    <a href="#home"> Home </a>
-                    <a href="#projects"> Projects </a>
-                    <a href="#contact"> Contact Me </a>
+                    <Link to="/">Arceline Joy</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/Projects">Projects</Link>
+                    <Link to="/Contact">Contact</Link>
                 </div>
                 <div className="icon">
                     <SocialIcon url="https://github.com/cruzalacar" />

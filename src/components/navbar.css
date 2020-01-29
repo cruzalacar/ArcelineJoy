@@ -1,12 +1,12 @@
 .navbar-following{
     background-color: #323438;
     height: 55px;
-    position: fixed;
+    position: relative;
     width: 100%;
     display: block;
     transition: top 0.3s;
     font-size: 18px;
-
+    
 }
 
 .navbar-following a {
@@ -27,5 +27,6 @@
     position: absolute;
     top: 2px;
     right: 15px;
+
     
 }
