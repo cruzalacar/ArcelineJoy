@@ -1,10 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './navbar.css';
+import './css/navbar.css';
 import {SocialIcon} from 'react-social-icons';
-import Home from './Home';
-import Projects from './Projects';
-import Contact from './Contact';
+
 
 class NavBar extends React.Component {
 

@@ -1,6 +1,6 @@
 .bgimg-1 {
-    background-image: url("../images/bgimg-1.jpeg");
-    height: 700px;
+    background-image: url("../../images/bgimg-1.jpeg");
+    height: 600px;
 
     background-attachment: fixed;
     background-position: center;
@@ -9,8 +9,8 @@
 }
 
 .bgimg-2 {
-    background-image: url("../images/bgimg-2.jpeg");
-    min-height: 700px;
+    background-image: url("../../images/bgimg-2.jpeg");
+    height: 600px;
 
     background-attachment: fixed;
     background-position: center;
@@ -19,8 +19,8 @@
 }
 
 .bgimg-3 {
-    background-image: url("../images/bgimg-3.jpeg");
-    min-height: 700px;
+    background-image: url("../../images/bgimg-3.jpeg");
+    height: 600px;
 
     background-attachment: fixed;
     background-position: center;
@@ -29,8 +29,8 @@
 }
 
 .bgimg-4 {
-    background-image: url("../images/bgimg-4.jpeg");
-    min-height: 700px;
+    background-image: url("../../images/bgimg-4.jpeg");
+    height: 600px;
 
     background-attachment: fixed;
     background-position: center;
@@ -38,9 +38,44 @@
     background-size: cover;
 }
 
-.info-box {
+.hello-box {
+    height: 300px;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 50px;
+    line-height: 1;
+}
+
+.hello-box h1 {
+    color: whitesmoke;
+    font-size: 80px;
+}
+
+.info-box-light {
     background-color: whitesmoke;
     height: 500px;
+}
+
+.info-box-light p{
+    color: #303136;
+    font-family: Verdana;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.info-box-dark{
+    background-color: #303136;
+    height: 500px;
+    top: 100px;
+}
+
+.info-box-dark p{
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
 }
 
 .info-box-name {
@@ -60,12 +95,4 @@
     position: relative;
     text-align: center;
     line-height: 80px;
-}
-
-.info-box-text {
-    color: grey;
-    font-family: Verdana;
-    font-size: 50px;
-    position: relative;
-    text-align: center;
 }
