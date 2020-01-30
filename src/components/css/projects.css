@@ -1,0 +1,38 @@
+.project-body {
+    padding-top: 100px;
+}
+
+.project-box {
+    background-color: whitesmoke;
+    height: 700px;
+    width: 800px;
+    position: relative;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-box-img {
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    min-width: 780px;
+    min-height: 400px;
+}
+
+.project-box-header {
+    color:black;
+    
+}
+
+.project-box-title {
+    
+    color: black;
+}
+
+.project-box-text {
+    
+    color: black;
+}

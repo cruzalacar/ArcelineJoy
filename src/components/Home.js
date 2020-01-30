@@ -5,7 +5,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <div className="bgimg-1">
+                <div className="bgimg-1" >
                     <div className="hello-box" >
                         <h1> Hello, </h1>
                         <h1> I'm Arceline </h1>
@@ -25,13 +25,13 @@ class Home extends React.Component {
                 </div>
                 <div className="info-box-dark ">
                     <h3>Programming Languages</h3>
-                    <p>C#, Python, Java, C & Swift</p>
+                    <p>• C#, Python, Java, C & Swift</p>
                     <h3>Web Technologies</h3>
-                    <p>React, Javascript, CSS & HTML</p>
+                    <p>• React, Javascript, CSS & HTML</p>
                     <h3>Database</h3>
-                    <p>MySQL, MS SQL Server & SQLite</p>
+                    <p>• MySQL, MS SQL Server & SQLite</p>
                     <h3>APIs</h3>
-                    <p>Django</p>
+                    <p>• Django</p>
                 </div>
                 <div className="bgimg-3">
                     <div className="title-box">
@@ -66,6 +66,7 @@ class Home extends React.Component {
                     <p>• Collected and updated data to assist with customer issues and concerns.</p>
                     <p>• Tracked and documented all received requests in an incident management system.</p>
                 </div>
+                <div className="bgimg-1"></div>
 
             </div>
 

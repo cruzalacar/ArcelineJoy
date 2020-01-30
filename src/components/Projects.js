@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
+import ProjectCard from './ProjectCard';
+
 
 class Projects extends React.Component{
     render() {
         return (
-            <div title="Projects">
-                <h1>Projects</h1>
-                <h1>Work in progress!!!</h1>
+            <div className="project-body">
+                <h1 >Work in progress</h1>
+                <div >
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                </div>
             </div>
         );
     }
