@@ -4,6 +4,17 @@
     background-position: center;
 }
 
+.img-avatar {
+    background-image: url("../../images/avatar.jpg");
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 .contact-info-box {
     height: 300px;
     position: absolute;

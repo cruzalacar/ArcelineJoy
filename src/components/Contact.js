@@ -12,6 +12,7 @@ class Contact extends React.Component {
                         <h1>
                             Arceline Joy Cruz
                         </h1>
+                        <div className="img-avatar"></div>
                         <p>
                             School Email: cruzalac@sheridancollege.ca
                            Personal Email: cruzalacar@outlook.com
@@ -24,13 +25,10 @@ class Contact extends React.Component {
                             Github: cruzalacar
                         </p>
 
-                        <SocialIcon url="https://www.instagram.com/aj8bits/" >
-                            <div>Instagram: @aj8bits</div>
-                        </SocialIcon>
-                        
-                        <br />
-                        <SocialIcon url="https://github.com/cruzalacar" /><br />
-                        <SocialIcon url="https://www.linkedin.com/in/arceline-joy-cruz-alacar-603358117/" /><br />
+                        <SocialIcon url="https://www.instagram.com/aj8bits/" />
+                    
+                        <SocialIcon url="https://github.com/cruzalacar" />
+                        <SocialIcon url="https://www.linkedin.com/in/arceline-joy-cruz-alacar-603358117/" />
 
 
                     </div>
