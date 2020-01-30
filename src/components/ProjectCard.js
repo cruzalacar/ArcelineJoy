@@ -6,12 +6,19 @@ class ProjectCard extends React.Component {
         return (
             <div>
                 <div className="project-box">
-                    <img className="project-box-img"  />
-                    <div className="project-box-content">
-                        <h1>Title</h1>
-                        <h1>Languages/Technologies</h1>
-                        <h1>Description</h1>
-                        <h1>Github Link</h1>
+                    <div className="project-body-left">
+                        <img className="project-img"></img> 
+                    </div>
+                    <div className="project-body-right">
+                        <div className="project-header">{this.props.title}</div>
+                        <div className="project-labels-right">Programming Language</div>
+                        <div className="project-text-right">{this.props.lang}</div>
+                        <div className="project-labels-right">Technologies</div>
+                        <div className="project-text-right">{this.props.tech}</div>
+                    </div>
+                    <div className="project-body-bottom">
+                        <div className="project-text-bottom">{this.props.desc}</div>
+                        <div className="project-text-bottom">{this.props.git}</div>
                     </div>
                 </div>
             </div>
