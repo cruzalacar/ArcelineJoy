@@ -2,6 +2,15 @@
     padding-top: 100px;
 }
 
+.project-body h1{
+    color:#303136;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+    -webkit-animation: fadein 3s;   
+}
+
 .project-box {
     background-color: whitesmoke;
     height: 700px;
@@ -66,10 +75,8 @@
 .project-body-bottom{
     display: inline-block;
     text-align: center;
-    margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px;
-
 }
 
 .project-text-bottom { 
@@ -77,6 +84,28 @@
     text-align: center;
     font-size: 20px;
     line-height: 1;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
 }
 
+.project-button { 
+    background-color: grey;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    height: 40px;
+    width: 300px;
+    color: whitesmoke;
+}
+
+.project-button:hover { 
+    background-color: whitesmoke;
+    color: #303136;
+    transition-duration: 0.5s;
+
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to { opacity: 1;}
+}
