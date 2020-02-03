@@ -1,6 +1,6 @@
 .bgimg-1 {
-    background-image: url("../../images/bgimg-1.jpeg");
-    height: 600px;
+    background-image: url("../../images/Headshoots/DSC_0825.JPG");
+    height: 800px;
 
     background-attachment: fixed;
     background-position: center;
@@ -38,10 +38,20 @@
     background-size: cover;
 }
 
+.bgimg-6 {
+    background-image: url("../../images/bgimg-1.jpeg");
+    height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hello-box {
     height: 300px;
     position: absolute;
-    padding-top: 200px;
+    padding-top: 300px;
     padding-left: 100px;
     line-height: 1;
 }
@@ -92,7 +102,7 @@
 .info-box-light h3 {
 
     color: #303136;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     
@@ -100,8 +110,8 @@
 
 .info-box-light p{
     color: #303136;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 1.5;
     position: relative;
     margin: auto;
     

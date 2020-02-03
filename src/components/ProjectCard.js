@@ -7,19 +7,22 @@ class ProjectCard extends React.Component {
         super(props);
         this.state = { git: ''};
         this.onClickGit = this.onClickGit.bind(this);
+
     }
 
     onClickGit() {
         const url = this.props.git;
         window.open(url);
     }
-    
+
     render() {
+        console.log(this.props.img);
         return (
             <div>
                 <div className="project-box">
                     <div className="project-body-left">
-                        <img className="project-img"></img> 
+                        <img className="project-img" width='670px' height='500px' src={this.props.img} />
+                        
                     </div>
                     <div className="project-body-right">
                         <div className="project-header">{this.props.title}</div>

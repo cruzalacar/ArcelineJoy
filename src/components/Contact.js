@@ -9,28 +9,32 @@ class Contact extends React.Component {
             <div >
                 <div className="bgimg-5">
                     <div className="contact-info-box">
-                        <h1>
+                        <div className="contact-header">
                             Arceline Joy Cruz
-                        </h1>
+                        </div>
                         <div className="img-avatar"></div>
-                        <p>
+                        <div className="contact-info">
                             School Email: cruzalac@sheridancollege.ca
-                           Personal Email: cruzalacar@outlook.com
-
-                        </p>
-                        <p>
+                        </div>
+                        <div className="contact-info">
+                            Personal Email: cruzalacar@outlook.com
+                        </div>
+                        <div className="contact-info">
                             Follow Me!
-                            Instagram: @aj8bits
-                            LinkedIn: Arceline Joy Cruz Alacr
-                            Github: cruzalacar
-                        </p>
+                        </div>
 
-                        <SocialIcon url="https://www.instagram.com/aj8bits/" />
-                    
-                        <SocialIcon url="https://github.com/cruzalacar" />
-                        <SocialIcon url="https://www.linkedin.com/in/arceline-joy-cruz-alacar-603358117/" />
-
-
+                        <div className="contact-icon" >
+                            <SocialIcon url="https://www.instagram.com/aj8bits/" />
+                            <p>Instagram: @aj8bits</p>
+                        </div>
+                        <div className="contact-icon" >
+                            <SocialIcon url="https://github.com/cruzalacar" />
+                            <p>Github: cruzalacar</p>
+                        </div>
+                        <div className="contact-icon" >
+                            <SocialIcon url="https://www.linkedin.com/in/arceline-joy-cruz-alacar-603358117/" />
+                            <p>LinkedIn: Arceline Joy Cruz Alacar</p>
+                        </div>
                     </div>
                 </div>
             </div>

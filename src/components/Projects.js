@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import ProjectCard from './ProjectCard';
+import Pro1 from "../images/bgimg-1.jpeg";
+import Pro2 from "../images/bgimg-2.jpeg";
+import Pro3 from "../images/bgimg-3.jpeg";
 
 
 
@@ -12,7 +15,7 @@ class Projects extends React.Component{
                 <div >
                     <ProjectCard 
                         title="This is my project for school" 
-                        img="imgtest" 
+                        img={Pro1}
                         lang="C# Python" 
                         tech="Visual Studio"
                         type="Personal Project"
@@ -21,7 +24,7 @@ class Projects extends React.Component{
                     />
                     <ProjectCard 
                         title="My C# Project with friends" 
-                        img="imgtest" 
+                        img={Pro2}
                         lang="langtest" 
                         tech="techtest"
                         type="Group Assignment"
@@ -33,7 +36,7 @@ class Projects extends React.Component{
                     />
                     <ProjectCard 
                         title="My final iOS assignmet" 
-                        img="imgtest" 
+                        img={Pro3}
                         lang="langtest" 
                         tech="techtest"
                         type="Colabroation"

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './css/background.css';
-import About from './AboutBox';
-import Skills from './SkillsBox';
-import Education from './EducationBox';
-import Experience from './ExperienceBox';
+import About from './home-components/AboutBox';
+import Skills from './home-components/SkillsBox';
+import Education from './home-components/EducationBox';
+import Experience from './home-components/ExperienceBox';
+import IconLinks from './home-components/IconLinks';
 
 class Home extends React.Component {
     render() {
@@ -34,7 +35,8 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <Experience />
-                <div className="bgimg-1"></div>
+                <div className="bgimg-6"></div>
+                <IconLinks />
             </div>
         );
     }
