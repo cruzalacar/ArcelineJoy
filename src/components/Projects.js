@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ProjectCard from './ProjectCard';
-import Pro1 from "../images/bgimg-1.jpeg";
+import Pro1 from "../images/projectimg/notemaker.jpg";
 import Pro2 from "../images/bgimg-2.jpeg";
 import Pro3 from "../images/bgimg-3.jpeg";
 
@@ -14,36 +14,31 @@ class Projects extends React.Component{
                 <h1 >The page displays some the projects I have worked on. Some of them are personal projects, while others school projects I have developed with a team.</h1>
                 <div >
                     <ProjectCard 
-                        title="This is my project for school" 
+                        title="Note Maker" 
                         img={Pro1}
-                        lang="C# Python" 
-                        tech="Visual Studio"
-                        type="Personal Project"
-                        desc="morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean" 
-                        git={`https://github.com/cruzalacar/ArcelineJoy`}
+                        lang="Swift" 
+                        tech="SQLite, AVFoundation, CoreLocation, MapKit, QuartzCore, SpriteKit, WatchConnectivity"
+                        type="Group Project"
+                        desc="This App allows a user to create notes that can be customized to with reminders, locations and photos. The app utilizes built-in iOS framworks to access the GPS, Camera, Webpage navigation and is able to send reminders to user using Apple watch." 
+                        git={`https://github.com/cruzalacar/NoteMaker`}
                     />
                     <ProjectCard 
-                        title="My C# Project with friends" 
+                        title="ABC Bookstore" 
                         img={Pro2}
-                        lang="langtest" 
-                        tech="techtest"
-                        type="Group Assignment"
-                        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
-                        git="Link"
+                        lang="C#, JavaScript" 
+                        tech="ASP.NET Web forms, Visual Studios, MS SQL Server"
+                        type="School Assignment"
+                        desc="Platform which allows users to view and filter books in the database with the option to add, delete and edit." 
+                        git={`https://github.com/cruzalacar/ABCBookStore`}
                     />
                     <ProjectCard 
-                        title="My final iOS assignmet" 
+                        title="Python Word Counter" 
                         img={Pro3}
-                        lang="langtest" 
+                        lang="Python" 
                         tech="techtest"
-                        type="Colabroation"
-                        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis. Viverra justo nec 
-                            ultrices dui sapien eget mi proin sed." 
-                        git="Link"
+                        type="Personal Project"
+                        desc="This script is able to take a text document from a user's input and return the the number of words it contains. The goal is to be able to return the 10 most common words found in the text file as a list." 
+                        git={`https://github.com/cruzalacar/PythonWordCounter`}
                     />
                 </div>
             </div>
